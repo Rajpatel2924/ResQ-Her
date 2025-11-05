@@ -16,7 +16,7 @@ from pymongo import MongoClient
 # Change ConnectionError to ConnectionFailure:
 from pymongo.errors import ConnectionFailure as MongoConnectionError, ServerSelectionTimeoutError 
 from bson.objectid import ObjectId
-from backend.mock_legal_data import LEGAL_DATA # Import the mock data
+from mock_legal_data import LEGAL_DATA # Import the mock data
 
 # 1. Initialization and Configuration
 load_dotenv()
