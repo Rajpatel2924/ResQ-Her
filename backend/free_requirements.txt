@@ -1,0 +1,26 @@
+# --- MINIMAL FREE/OSS REQUIREMENTS ---
+
+# FastAPI Core
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+starlette==0.41.2
+python-dotenv==1.0.1
+
+# Database
+pymongo==4.10.1
+bson
+
+# Open-Source RAG/Embeddings
+# Using the stable pins from your list
+numpy==1.26.4
+scipy
+torch==2.3.0
+sentence-transformers==2.2.2
+transformers==4.35.2 
+huggingface-hub==0.17.3 
+pillow==11.0.0
+
+# Optional: Keep only if actually using them in main.py (e.g., for decomposition/twitter)
+click==8.1.7
+typing_extensions==4.12.2
